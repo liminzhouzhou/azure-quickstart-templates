@@ -24,7 +24,7 @@ steps:
     azureResourceManagerConnection: 'ARMconnect'
     subscriptionId: 'abedd7a7-07e1-4757-bad3-fb481f4bf0b3'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipelinesLAMP-rg'
+    resourceGroupName: 'LiminRG'
     location: 'East Asia'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
